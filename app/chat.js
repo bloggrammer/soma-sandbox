@@ -20,7 +20,7 @@ function receiveMessage() {
 
   const receivedMessage = document.createElement('div');
   receivedMessage.className = 'message received';
-  receivedMessage.textContent = 'Friend: Hello!';
+  receivedMessage.textContent = 'SOMA: Hello!';
 
   chatBox.appendChild(receivedMessage);
 
